@@ -4,7 +4,7 @@ import {CardContainer, Paragraph, ParagraphLast, Span} from "./styles.js";
 
 export default function LocationCard ({ props }) {
   const {name, type, dimension, residents } = props;
-  console.log(residents.length);
+  // console.log(residents.length);
 
 
   return (

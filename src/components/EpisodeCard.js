@@ -4,7 +4,7 @@ import {CardContainer, Paragraph, ParagraphLast, Span} from "./styles.js";
 
 export default function EpisodeCard ({ props }) {
   const {name, air_date, episode, characters } = props;
-  console.log(characters.length);
+  // console.log(characters.length);
 
 
   return (

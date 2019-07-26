@@ -1,6 +1,37 @@
 import React from 'react';
 import Styled from "styled-components";
 
+export const TabHeading = Styled.h2 `
+    text-align: center;
+    font-size: 2rem;
+
+`;
+
+export const ButtonDiv = Styled.div `
+    display: flex;
+    justify-content: space-between;
+    margin: auto
+`
+
+export const Buttons = Styled.button `
+        margin: 10px;
+        font-size: 1.2rem;
+        background-color: lightblue;
+        color: black;
+        border: 2px solid gray;
+        border-radius: 10px;
+        padding: 5px 10px;
+        box-shadow: 0px 5px 10px gray;
+
+        &:hover {
+            background-color: black;
+            transform: scale(1.4);
+            box-shadow: 0px 5px 10px lightblue;
+            color: lightblue;
+        }
+
+`;
+
 export const Container = Styled.div `
     display: flex;
     flex-flow: row wrap;

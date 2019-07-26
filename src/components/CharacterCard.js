@@ -3,8 +3,8 @@ import {CharacterContainer, Paragraph, ParagraphCharacterLast, Span} from "./sty
 
 export default function CharacterCard ({ props }) {
   const { name, status, species, gender, location, image, } = props;
-  console.log(props);
-  console.log(location.name);
+  // console.log(props);
+  // console.log(location.name);
   return (
     <CharacterContainer>
       <h2>{name}</h2>
