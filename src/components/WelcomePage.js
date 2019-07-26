@@ -1,11 +1,17 @@
 import React from 'react'
+import Styled from "styled-components";
+
+const HeadingColor = Styled.h1 `
+  color: lightblue;
+
+`;
 
 export default function WelcomePage() {
-  return <section className="welcome-page">
+  return <div className="welcome-page">
     <header>
-      <h1>Welcome to the ultimate fan site!</h1>
-      <img class="main-img ui centered medium circular image" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="rick" />
+      <HeadingColor>Welcome to the Ultimate Fan Site!</HeadingColor>
+      <img className="main-img ui centered medium circular image" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="rick" />
     </header>
-  </section>
+  </div>
 
 }
